@@ -1,0 +1,53 @@
+Exercise A: Explaining the SDLC
+Step 1: Write a zero-shot prompt
+A zero-shot prompt asks the question directly, without assigning the AI a role or specifying a format.
+
+Prompt 1
+Explain the Software Development Life Cycle (SDLC).
+
+AI response
+The Software Development Life Cycle (SDLC) is a process used to plan, create, test, release, and maintain software. Common stages include planning, gathering requirements, designing the system, writing code, testing, deployment, and maintenance. Following these stages helps teams organize their work and build software that meets users’ needs. Teams may use different approaches to complete the stages, such as Waterfall or Agile.
+
+3–5 sentence summary
+The SDLC is a structured process for building and maintaining software. It commonly includes planning, requirements, design, coding, testing, deployment, and maintenance. Following these stages helps teams organize development and meet user needs.
+
+Step 2: Write a role prompt
+This prompt gives the AI a role, identifies its audience, and asks for a specific format.
+
+Prompt 2
+Act as a friendly computer science teacher. Explain the Software Development Life Cycle (SDLC) to students who are new to software development. Use a numbered list to describe each main stage, and give a simple example for each stage.
+
+AI response
+The Software Development Life Cycle (SDLC) is a series of steps a team follows to build and support software. Imagine the team is creating a school library app:
+1. Planning: Decide what the app should do and whether the project is practical. For example, the team decides the app should help students find books.
+2. Requirements: Find out what users need. For example, students need to search by book title, and librarians need to update book records.
+3. Design: Plan how the app will look and work. The team might sketch search screens and decide how book information will be stored.
+4. Development: Write the code that makes the app work.
+5. Testing: Check for problems, such as whether a search finds the right book.
+6. Deployment: Make the app available for students and librarians to use.
+7. Maintenance: Fix problems and make updates, such as adding a way to reserve books.
+
+3–5 sentence summary
+The response explains the SDLC using a numbered list and a school library app example. It describes the stages from planning through maintenance. The examples make each stage easier for a beginner to understand.
+
+Step 3: Compare the responses
+The second response was more useful for a beginner because it used a clear list and explained each stage with one example. I changed the prompt by giving the AI a teacher role, naming students new to software development as the audience, and requesting a numbered list with examples. The role encouraged a teaching style, while the audience helped keep the explanation introductory. The requested format also made the stages easier to follow.
+
+Exercise B: Software Development Models
+Step 1: Write one prompt covering all four situations
+Prompt
+Act as a software development consultant. For each situation below, recommend an appropriate software development model, explain why it fits, and briefly mention one limitation:
+1. A project with stable, clearly defined requirements.
+2. A startup where requirements change frequently based on user feedback.
+3. A large project with significant technical and security risks.
+4. A project where testing and verification are extremely important.
+Use a numbered list and keep each explanation concise.
+
+Step 2: Record the AI response
+1. Stable, clearly defined requirements — Waterfall. Waterfall is appropriate because the team can define the requirements before development and then proceed through planned stages. Limitation: It can be costly to make changes once development is underway.
+2. Startup with frequently changing requirements — Agile. Agile supports short development cycles and regular feedback, so the team can adjust the product as it learns from users. Limitation: Frequent changes can make schedules and final costs harder to predict.
+3. Large project with significant technical and security risks — Spiral. Spiral includes repeated planning and risk analysis, which helps teams identify and address major risks throughout development. Limitation: It can require more time, expertise, and management effort.
+4. Project where testing and verification are extremely important — V-model. The V-model pairs development stages with corresponding testing stages, making verification and validation part of the plan from the beginning. Limitation: It can be less flexible when requirements change significantly.
+
+Step 3: Write a short reflection
+The best development model depends on the project’s requirements, risks, and need for flexibility or testing. Waterfall fits stable requirements, while Agile is useful when a startup needs to respond to user feedback. Spiral gives more attention to risk, and the V-model emphasizes verification and testing. Each model has a limitation, so the team should consider both the project’s needs and the tradeoffs before choosing.
